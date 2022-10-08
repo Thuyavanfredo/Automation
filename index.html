@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
+    <link rel="stylesheet" href="index.css">
+    <script src="main.js"></script>
+</head>
+<body>
+  <div class="image">
+    <img src="information.png" alt="">
+  </div>
+  <div class="title">
+    <h2>TSG Hyperlink Creator Tool</h2>
+  </div>
+    <div class="form">
+      <div class="text" id="clear">
+        <textarea style="resize: none;"   placeholder="Paste arbortext content here"></textarea>
+    </div>
+    <div class="text1" id="clear">
+      <textarea style="resize: none;" placeholder="Paste ACM report here"></textarea>
+    </div>
+    </div>
+    <div class="but">
+      <button class="bt">Get Hyperlink</button>
+      <button class="bt" type="reset">Clear</button>
+    </div>
+    <div class="help">
+      <div class="con">
+          <p>For any information or issues in the automation toolbox.Please feel free to contact</p>
+      </div>
+      <div class="contact">
+          <ul style="list-style-type:none;">
+              <li>Thuyavan Tamilarasan(<font color= yellow>tamilt</font>)</li>
+              <li>Simon SanthoshKumar(<font color= yellow>marias3</font>)</li>
+          </ul> 
+      </div>
+    </div>
+</body>
+<div id="ex1" class="modal">
+  <p>Hyperlink has been generated</p>
+</div>
+<!-- Link to open the modal -->
+<p class="modalopen"><a href="#ex1" rel="modal:open">Open Modal</a></p>
+    </div>
+<!-- <script>
+  const tx = document.getElementsByTagName("textarea");
+for (let i = 0; i < tx.length; i++) {
+tx[i].setAttribute("style", "height:" + (tx[i].scrollHeight) + "px;overflow-y:hidden;");
+tx[i].addEventListener("input", OnInput, false);
+}
+
+function OnInput() {
+this.style.height = 0;
+this.style.height = (this.scrollHeight) + "px";
+}
+</script> -->
+</html>
